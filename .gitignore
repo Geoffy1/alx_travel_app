@@ -1,0 +1,40 @@
+# Create the .gitignore file
+echo "# .gitignore for Django projects
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/  # Ignore the virtual environment directory
+lib/
+lib64/
+bin/
+include/
+share/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Django
+*.log
+*.pot
+*.mo
+*.js.map
+*.css.map
+db.sqlite3 # If using SQLite, ignore the database file
+/media     # User-uploaded media files
+/static    # Collected static files
+
+# Environment variables (CRUCIAL!)
+.env       # DO NOT commit your .env file!
+
+# IDEs
+.idea/     # PyCharm/IntelliJ
+.vscode/   # VS Code
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+" > .gitignore
