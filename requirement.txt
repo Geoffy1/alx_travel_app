@@ -1,8 +1,0 @@
-# File: requirements.txt
-django
-djangorestframework
-django-cors-headers
-drf-yasg
-celery
-django-environ
-mysqlclient
